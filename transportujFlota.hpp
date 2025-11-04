@@ -1,6 +1,8 @@
 #pragma once
 
 #include "Stocznia.hpp"
+#include <stdlib.h>
+#include <time.h>
 
 class Statek {
 public:
