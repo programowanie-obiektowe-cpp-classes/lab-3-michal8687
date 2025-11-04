@@ -17,7 +17,7 @@ class Tankowiec : public Statek {
 public:
 	unsigned int transportuj() override
 	{
-		return 500;
+		return 5;
 	}
 };
 
@@ -25,7 +25,7 @@ class Zaglowiec : public Statek {
 public:
 	unsigned int transportuj() override
 	{
-		return 100;
+		return 1;
 	}
 };
 
